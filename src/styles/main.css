@@ -1,34 +1,34 @@
-.container {
-  display: flex;
+main{
+  display: flex; 
   flex-direction: column;
   height: 100vh;
   background-image: url("../images/wall.png");
 }
 
-.menu {
+.menu{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
   height: 90px;
   width: 100%;
-  background-color: #000000;
-  color: #ffffff;
-  border-bottom: 5px solid #ffd700;
+  background-color: black;
+  color: aliceblue;
+  border-bottom: 5px solid gold;
 }
 
-.panel {
+.panel{
   margin-top: 1rem;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
+
 }
 
-.square {
+.square{
   height: 150px;
   width: 150px;
-  border: 1px solid #000000;
-  background-color: #1aeaa5;
+  border: 1px solid black;
+  background-color: lightgreen;
 }
 
 .enemy {
